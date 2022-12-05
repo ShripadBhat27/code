@@ -1,0 +1,6 @@
+ Value , Number of yes , Number of No , Entropy 
+Excellent,3,3,1
+Fair,6,2,0.811278
+
+ 
+ information gain , 0.048127

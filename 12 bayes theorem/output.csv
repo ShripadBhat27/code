@@ -1,0 +1,17 @@
+outlook,P(yes),P(no)
+rain,0.666667,0.333333
+
+temp,P(yes),P(no)
+cool,0.333333,0.333333
+
+humidity,P(yes),P(no)
+high,0.666667,0.666667
+
+wind,P(yes),P(no)
+strong,0,0.666667
+
+
+
+
+P(yes),0
+P(no),0.0246914

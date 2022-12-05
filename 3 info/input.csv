@@ -1,0 +1,15 @@
+RID,Age,Income,Student,Credit rating,Class: buys computer
+1,Youth,High,No,Fair,No
+2,Youth,High,No,Excellent,No
+3,middle aged,High,No,Fair,Yes
+4,Senior,Medium,No,Fair,Yes
+5,Senior,Low,Yes,Fair,Yes
+6,Senior,Low,Yes,Excellent,No
+7,middle aged,Low,Yes,Excellent,Yes
+8,Youth,Medium,No,Fair,No
+9,Youth,Low,Yes,Fair,Yes
+10,Senior,Medium,Yes,Fair,Yes
+11,Youth,Medium,Yes,Excellent,Yes
+12,middle aged,Medium,No,Excellent,Yes
+13,middle aged,High,Yes,Fair,Yes
+14,Senior,Medium,No,Excellent,No
