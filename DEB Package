@@ -1,0 +1,55 @@
+1. Create a folder for package(in home folder)
+  $ mkdir shri
+2. Go to that folder 
+  $ cd shri
+  create another folder 
+  $ mkdir DEBIAN
+3. create control file in DEBIAN FOLDER
+  $ cd DEBIAN
+  $ gedit control
+Package: shri
+Version: 1.0
+Section: custom
+Priority: optional
+Architecture: all
+Essential: no
+Installed-Size: 1024
+Maintainer: linuxconfig.org
+Description: Print linuxconfig.org on the screen
+
+4. Now go back one folder 
+  $ cd ..
+  
+5. make folder called usr in shri
+  $mkdir usr
+  $cd usr
+  $mkdir bin
+  $cd bin
+
+6. make cpp code
+  $ gedit commandName.cpp
+  $g++ commandName.cpp -o commandName
+  $./commandName
+  
+7. Go back to home folder (Hint : 3 times cd .. )
+
+8. $sudo apt-get install build-essential
+
+9. $sudo dpkg-deb --build shri/
+(o/p : 'shri.deb' gets created)
+  (shri above is <name_of_folder>)
+ 
+ 
+ 10. sudo dpkg -i shri.deb
+ 
+ 
+ 
+ DONE!!!
+ 
+ Now put in command line
+ 
+ $commandName 
+ o/p : it will  execute that file
+  
+
+  
